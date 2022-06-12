@@ -73,9 +73,9 @@ for _, _, files in os.walk(pathToPdfs):
                 list_of_texts = texts.split('\n')
                 counter = 0
                 
-                for text in list_of_texts:
-                    print(str(counter)+ ': '+text)
-                    counter += 1
+                # for text in list_of_texts:
+                #     print(str(counter)+ ': '+text)
+                #     counter += 1
 
                 nomor_bupot = list_of_texts[4].split(': ')[-1].split(' H.4')[0].replace(' ','')
                 nama_yang_dipotong_pajak = list_of_texts[10].split(': ')[-1]
